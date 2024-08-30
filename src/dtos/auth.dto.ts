@@ -2,7 +2,7 @@ import {z} from "zod"
 
 export const RegisterDto = z.object({
     email: z.string().email(),
-    passowrd: z.string().min(8),
+    password: z.string().min(8),
 })
 
 
